@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gi"
+                android:src="@drawable/god"/>
+
+            <TextView
+                android:id="@+id/text_gi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="God Of War"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hsr"
+                android:src="@drawable/black"/>
+
+            <TextView
+                android:id="@+id/text_hsr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/meler"
+                android:src="@drawable/donhil"/>
+
+            <TextView
+                android:id="@+id/text_meler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DownHill"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hi3"
+                android:src="@drawable/bully"/>
+
+            <TextView
+                android:id="@+id/text_hi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bully"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dota"
+                android:src="@drawable/gta"/>
+
+            <TextView
+                android:id="@+id/text_dota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GTA"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="341dp"
+        android:layout_height="83dp"
+        android:text="TI.22.A.1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <ImageButton
+        android:id="@+id/button_move_hallo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/andro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/button_move_count"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/fibonacci"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/button_move_to_other_scroll"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/buttonMoveToOtherActivity"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/replay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button_move_to_alarm"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/j"
+        android:onClick="moveToAnotherActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/button_map"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/maps"
+        android:contentDescription="TODO"
+        android:onClick="map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="150dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bully"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
